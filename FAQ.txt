@@ -1,0 +1,29 @@
+Q: What is RenderMind?
+A: RenderMind is a smart Cycles optimization add-on for Blender. It analyzes your scene in real time and automatically applies optimized settings for speed, quality, and stability.
+
+Q: How does RenderMind work?
+A: It performs deep scene analysis, evaluating geometry, materials, lights, volumes, modifiers, textures, and render resolution. Based on the analysis, it calculates the optimal Cycles settings including samples, bounces, adaptive sampling, and denoising.
+
+Q: Which devices does RenderMind support?
+A: RenderMind automatically selects the best available device. It supports GPU and CPU rendering, including backends: OPTIX, CUDA, HIP, METAL, and ONEAPI.
+
+Q: Can I revert the changes made by RenderMind?
+A: Yes! Before applying any optimization, RenderMind automatically backs up your current scene settings. You can restore them anytime with the "Restore Settings" button.
+
+Q: Is RenderMind safe to use on my projects?
+A: Absolutely. RenderMind only modifies Cycles settings and always keeps a backup of your original scene. Your original data is never lost.
+
+Q: Do I need to manually tweak settings after optimization?
+A: In most cases, RenderMind sets optimal baseline settings. However, final artistic adjustments may still be needed depending on your lighting, materials, and desired output quality.
+
+Q: Which Blender versions are supported?
+A: Blender 5.1.0 or newer with the Cycles render engine.
+
+Q: Is RenderMind free?
+A: Yes! RenderMind is completely free to use. Support the project by subscribing to my YouTube channel. https://www.youtube.com/@qqwa3r 
+
+Q: Will RenderMind continue to improve?
+A: Yes! The add-on is actively evolving with plans for more advanced optimization algorithms, deeper scene analysis, performance enhancements, and full support for future Blender versions.
+
+Q: License
+A: RenderMind is released under GPL-3.0-or-later.
